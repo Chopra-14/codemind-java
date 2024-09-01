@@ -1,0 +1,17 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+        int n,m,t;
+        Scanner read=new Scanner(System.in);
+        t=read.nextInt();
+        while(t-->0){
+        n=read.nextInt();
+        m=read.nextInt();
+        System.out.println(m/n);
+	}
+	}
+}
