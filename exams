@@ -1,0 +1,9 @@
+a=int(input())
+for i in range(a):
+    x,y,z=map(int,input().split())
+    k=x*y
+    q=(z/k)*100
+    if q>50:
+        print("YES")
+    else:
+        print("NO")
