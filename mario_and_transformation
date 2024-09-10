@@ -1,0 +1,4 @@
+mush = int(input())
+for m in range(mush):
+  mushroom = int(input())
+  print ("huge") if mushroom%3==1 else print("small") if mushroom%3==2 else print("normal")
