@@ -1,0 +1,8 @@
+n=int(input())
+for i in range (n):
+    a,b=map(int,input().split())
+    div=abs(a-b)
+    if(div%2==0):
+        print("Yes")
+    else:
+        print("No")
