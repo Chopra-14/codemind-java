@@ -1,0 +1,13 @@
+t = int(input())
+for i in range(t):
+    n, m = map(int, input().split())
+    a = input()
+    b = input()
+    min_ham_d= float('inf')
+    for i in range(n - m + 1):
+        ham_d= 0
+        for j in range(m):
+            if a[i + j] != b[j]:
+                ham_d+= 1
+        min_ham_d= min(min_ham_d, ham_d)
+    print(min_ham_d)
