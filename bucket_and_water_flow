@@ -1,0 +1,8 @@
+for i in range(int(input())):
+    w,x,y,z = list(map(int,input().split()))
+    if (y*z) > (x - w):
+        print('overFlow')
+    elif (y*z) == (x - w):
+        print('filled')
+    else:
+        print('Unfilled')
